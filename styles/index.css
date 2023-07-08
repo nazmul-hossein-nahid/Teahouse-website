@@ -15,11 +15,11 @@ a {
 /* header raleted css */
 .header {
     width: 100%;
-    height:100vh;
+    height: 100vh;
     background-image: url('../images/bannar-img.png');
-    background-position:bottom;
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
 .nav {
@@ -28,10 +28,12 @@ a {
 }
 
 .nav-bar {
+    max-width: 1300px;
+    margin: 0 auto;
     padding-top: 40px;
     padding-bottom: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -59,4 +61,39 @@ a {
     font-size: 24px;
     font-weight: 600;
 }
+
 /* bannar section css here */
+.bannar {
+    max-width: 1300px;
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.bannar-title {
+    color: rgba(15, 14, 14, 0.90);
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    padding-bottom: 55px;
+}
+
+.bannar-discreption {
+    color: rgba(15, 14, 14, 0.90);
+    font-size: 16px;
+    font-weight: 400;
+    width: 425px;
+    padding-bottom: 50px;
+}
+
+.bannar-btn {
+    border-radius: 4px;
+    background: #559CEF;
+    width: 183px;
+    height: 55px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
