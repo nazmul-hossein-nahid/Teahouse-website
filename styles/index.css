@@ -166,3 +166,21 @@ a {
     font-weight: 500;
     letter-spacing: 0.4px;
 }
+.tea-item{
+    position: relative;
+}
+.box{
+    position: absolute;
+    background-color: #559CEF;
+    height: 30px;
+    width: 100px;
+    top:0px;
+    right: 0px;
+
+}
+.box p{
+    padding: 5px;
+    text-align: center;
+    color:#fff;
+}
+/*  */
