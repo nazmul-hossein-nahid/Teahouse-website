@@ -55,6 +55,16 @@ a {
     font-size: 16px;
     font-weight: 600;
 }
+.menu a:hover {
+    color: #559CEF;
+    font-size: 16px;
+    font-weight: 600;
+}
+.menu i:hover {
+    color: #559CEF;
+    font-size: 16px;
+    font-weight: 600;
+}
 
 .logo h2 {
     color: #559CEF;
@@ -98,13 +108,20 @@ a {
 
 .bannar-btn {
     border-radius: 4px;
-    background: #559CEF;
+    background-color: #559CEF;
     width: 183px;
     height: 55px;
     color: #FFF;
     font-size: 16px;
     font-weight: 600;
     border: none;
+}
+.bannar-btn:hover{
+    background-color: transparent;
+    color: #559CEF;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #559CEF;
 }
 
 /* main section css here */
