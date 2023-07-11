@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* common shared css */
@@ -10,6 +11,11 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
 }
 
 /* header raleted css */
@@ -55,11 +61,13 @@ a {
     font-size: 16px;
     font-weight: 600;
 }
+
 .menu a:hover {
     color: #559CEF;
     font-size: 16px;
     font-weight: 600;
 }
+
 .menu i:hover {
     color: #559CEF;
     font-size: 16px;
@@ -116,7 +124,8 @@ a {
     font-weight: 600;
     border: none;
 }
-.bannar-btn:hover{
+
+.bannar-btn:hover {
     background-color: transparent;
     color: #559CEF;
     font-size: 16px;
@@ -132,7 +141,7 @@ a {
 
 /* customers-reviwe section css */
 .customers-reviwe {
-    margin: 55px 0px;
+    margin: 128px 0px;
 }
 
 .tea {
@@ -166,21 +175,56 @@ a {
     font-weight: 500;
     letter-spacing: 0.4px;
 }
-.tea-item{
+
+.tea-item {
     position: relative;
 }
-.box{
+
+.box {
     position: absolute;
     background-color: #559CEF;
     height: 30px;
     width: 100px;
-    top:0px;
+    top: 0px;
     right: 0px;
 
 }
-.box p{
+
+.box p {
     padding: 5px;
     text-align: center;
-    color:#fff;
+    color: #fff;
 }
-/*  */
+
+/* discover section */
+.discover-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.discover-text {
+    background-image: url('../images/PngItem_2104160\ 1.png');
+    width: 385px;
+    height: 481px;
+    display: flex;
+    align-items: center;
+    padding: 48px;
+}
+
+.discover-titel {
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    padding-bottom: 24px;
+}
+.discover-description{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    padding-bottom: 24px;
+    padding-right: 42px;
+}
